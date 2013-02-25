@@ -12,19 +12,6 @@ License: GPLv2
 /*
 Select comments provided by the movie Young Frankenstein.
  */
-/*
-TODO: add widget
-TODO: create shortcode output
-TODO: wp.org repo readme & github readme.
-TODO: localization
-TODO: rework settings api stuff.
-TODO: determine what fields in the post editor the CPT needs.
-TODO: determine what meta fields we need to save, if any. See: easyyoutube_userchannel_videos()
-TODO: make sure wds_get_results in ajax.js is correct.
-TODO: add filters for user extensibility.
-TODO: add return void where appropriate
-TODO: add public/private to functions
- */
 
 /*
 Dr. Frederick Frankenstein: LIFE! DO YOU HEAR ME? GIVE MY CREATION... LIFE!
