@@ -328,6 +328,9 @@ if ( !class_exists( 'WDS_EasyYoutube' ) ) {
 		function easyyoutube_load_scripts($hook) {
 			global $easyyoutube_hook;
 
+			// TODO: finish this conditional, to only load on CPT listing page
+			$screen = get_current_screen();
+			wp_enqueue_script( 'easyyoutube-admin', plugins_dir_url( __FILE__ ) . '/js/easyyoutube-admin.js', array( 'jquery' ) );
 			// Dr. Frederick Frankenstein: [to Inga from behind the bookcase] Put... the candle... back!
 			if ( $hook != $easyyoutube_hook )
 				return;
